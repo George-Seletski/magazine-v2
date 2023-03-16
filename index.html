@@ -13,13 +13,10 @@
 </head>
 
 <body>
-    <div class="topnav" id="myTopnav">
+    <!--<div class="topnav" id="myTopnav">
         <a href="#page/2" id="contents">Contents </a>
         <a href="#news" id="View">View</a>
         <a href="#contact" id="share">Share</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
         <div class="search-container">
             <form>
                 <input type="text" placeholder="Search.." name="search">
@@ -28,7 +25,27 @@
         </div>
         <div class="zoom-icon zoom-icon-in"></div>
 
-    </div>
+    </div>-->
+    <nav class="navbar navbar-expand-sm ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <!--<li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>-->
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search page">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
     <div id="canvas">
 
@@ -527,7 +544,7 @@
             test: Modernizr.csstransforms,
             yep: ['js/turn.min.js'],
             nope: ['js/turn.html4.min.js'],
-            both: ['js/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
+            both: ['js/zoom.min.js', 'js/magazine.js', 'css/magazine.css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css'],
             complete: loadApp
         });
     </script>

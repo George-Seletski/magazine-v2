@@ -1,12 +1,25 @@
 body {
     overflow: hidden;
-    background-color: #fcfcfc;
+    background-color: #f17e7e;
     margin: 0;
     padding: 0;
 }
 
 
 /*NAVBAR*/
+
+.navbar {
+    background-color: rgb(187, 129, 129);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: rgb(185, 185, 185);
+}
 
 .topnav {
     overflow: hidden;
