@@ -79,7 +79,7 @@ function zoomTo(event) {
 
 function loadRegions(page, element) {
 
-    $.getJSON('pages/' + page + '-regions.json').
+    $.getJSON('pages/' + page + '.png').
     done(function(data) {
 
         $.each(data, function(key, region) {
