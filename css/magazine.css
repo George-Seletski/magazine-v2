@@ -1,6 +1,6 @@
 body {
     overflow: hidden;
-    background-color: #f17e7e;
+    background-image: url(../pics/background.jpg);
     margin: 0;
     padding: 0;
 }
@@ -57,7 +57,7 @@ body {
 .magazine-viewport .container {
     position: absolute;
     top: 48%;
-    left: 50%;
+    left: 48.6%;
     width: 1322px;
     height: 822px;
     margin: auto;
