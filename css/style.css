@@ -18,6 +18,7 @@ a {
     position: absolute;
     bottom: 70%;
     left: -65%;
+    z-index: 1;
 }
 
 .instacard-header {
