@@ -41,17 +41,44 @@
         </div>
     </nav>
 
+
+
     <div id="canvas">
 
 
 
-        <div class="magazine-viewport" style="padding: 1em;">
+        <div class="magazine-viewport">
             <div class="container">
+                <div>
+                    <a href="https://www.instagram.com/">
+                        <div id="instacard" class="instacard">
+                            <div id="header" class="instacard-header">
+                                <span class="instacard-actions">...</span>
 
+                                <img src="./images/profile.png" class="instacard-profile-image" alt="logo">
+                                <span class="instacard-profile-name">Namexxxx</span>
+
+                            </div>
+
+                            <div id="image">
+                                <img src="./images/image.png" class="instacard-image" alt="image">
+                            </div>
+
+                            <div id="actions">
+                                <img src="./pics/instagram-like-action.svg" alt="instagram-like-action" class="instagram-like">
+
+                                <img src="./pics/instagram-comment-action.svg" alt="instagram-comment-action" class="instagram-comment">
+                                <img src="./pics/instagram-send-action.svg" alt="instagram-send-action" class="instagram-send">
+                                <img src="./pics/instagram-save-action.svg" alt="instagram-save-action" class="instagram-save">
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 <div class="magazine">
-                    <!-- Next button -->
+
                     <div ignore="1" class="next-button"></div>
-                    <!-- Previous button -->
+
                     <div ignore="1" class="previous-button"></div>
                 </div>
 
@@ -538,7 +565,7 @@
             test: Modernizr.csstransforms,
             yep: ['js/turn.min.js'],
             nope: ['js/turn.html4.min.js'],
-            both: ['js/zoom.min.js', 'js/magazine.js', 'css/magazine.css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css'],
+            both: ['js/zoom.min.js', 'js/magazine.js', 'css/magazine.css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css', 'css/style.css'],
             complete: loadApp
         });
     </script>
